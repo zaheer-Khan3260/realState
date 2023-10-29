@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Custom Font";
+    src: url("D:\Real state\src\Fonts\BaliSunaren-Regular.otf");
+}
+@font-face {
+    font-family: "Services Font";
+    src: url("D:\Real state\src\Fonts\BaliSunaren-Regular.otf");
+}
+body{
+    font-family: "Custom Font", sans-serif;
+}
+
+.sticky-navbar{
+    position: sticky;
+    top: 0;
+}
+.services-discrip-text-cont{
+    font-family: "Services Font", sans-serif;
+}
+
+.service-cont{
+    box-shadow: 20px 20px 20px 3px rgb(118 118 118 / 20%);
+    transition: scale 1s ease;
+}
+.service-cont:hover{
+    scale: 1.1;
+}
+
+.name-label{
+    position: absolute;
+    
+    top: 28px;
+    left: 36px;
+    font-size: 1rem;
+    color: #202020;
+    transition: all 0.5s ease;
+}
+
+.input:placeholder-shown ~ .name-label{
+    top: 70px;
+    cursor: text;
+}
+ 
+.email-label{
+    position: absolute;
+    top: 120px;
+    left: 36px;
+    font-size: 1rem;
+    color: #202020;
+    transition: all 0.5s ease;
+}
+.email:placeholder-shown ~ .email-label{
+    top: 161px;
+    cursor: text;
+}
+.menu-container {
+   animation: max-height 1s ease;
+  }
+  
+  /* Apply styles when the menu is open */
+
+  @keyframes max-height{
+    0%{
+        max-height: 0px;
+    }
+   
+    100%{
+        max-height: 200px;
+    }
+  }
+  .animation{
+    opacity: 0;
+    transform: translateY(115px);
+    transition: all  1.5s ease;
+  }
+
+  .show{
+    opacity: 1;
+    transform: translateY(0);
+  }
