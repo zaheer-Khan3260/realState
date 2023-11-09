@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import compayLogo from '../image/paramarth-group-high-resolution-logo (1).webp'
+import compayLogo from '../image/paramarth-group-high-resolution-logo-transformed.webp'
 export default function Footer() {
 
     return(
-        <footer className="bg-white border-y mt-10" >
+        <footer className="bg-[#232f3e] border-y mt-20" >
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
@@ -99,7 +99,7 @@ export default function Footer() {
                 <span className="text-sm text-gray-500 sm:text-center">
                     © 2023
                     <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                        hiteshchoudhary
+                        paramarthgroup
                     </a>
                     . All Rights Reserved.
                 </span>

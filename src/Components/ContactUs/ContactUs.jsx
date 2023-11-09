@@ -20,7 +20,7 @@ export default function Contact() {
                  />
              </div>
 
-             <div className=" h-[26rem] mt-10 border border-black m-auto w-[15rem] rounded-xl relative lg:w-[18rem] lg:m-0 lg:ml-10 xl:ml-20 xl:w-[23rem]">
+             <div className=" h-[26rem] mt-10 border border-black m-auto w-[20rem] rounded-xl relative lg:w-[18rem] lg:m-0 lg:ml-10 xl:ml-20 xl:w-[23rem]">
                 <input
                 id="Name"
                  type="text"
