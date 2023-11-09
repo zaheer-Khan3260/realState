@@ -57,12 +57,12 @@ body{
     cursor: text;
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px){
     .input:placeholder-shown ~ .name-label {
-        top: 56px;
+        top: 48px;
     }
     .email:placeholder-shown ~ .email-label{
-        top: 128px;
+        top: 120px;
         cursor: text;
     }
 
