@@ -310,7 +310,7 @@ Our mission is to turn your real estate goals into reality. We're not just in th
                  placeholder="Name"
                  className="input w-[10rem] mt-10 ml-5 h-10 pt-4 pl-2 border-2 border-black rounded-lg lg:w-5/6"
                  />
-                 <label htmlFor="Name" className="name-label">Name</label>
+                 <label htmlFor="Name" className="name-label top">Name</label>
                 <input
                 id="Email"
                  type="email"

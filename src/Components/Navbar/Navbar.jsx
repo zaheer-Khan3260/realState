@@ -39,10 +39,10 @@ return (
      
     <nav className=" sticky top-12 border-b-2 lg:border-b-0 w-full h-8 m-auto flex justify-between text-white text-center bg-[#232f3e] lg:h-14">
     
-    <div className="h-8 w-60 text-left ml-2 mt-3 lg:mt-6  lg:ml-8 lg:w-full xl:text-center ">
+    <div className="h-8 w-60 text-left ml-2 mt-1 lg:mt-3  lg:ml-8 lg:w-full xl:text-center ">
   <h4 className=" text-blue-800 font-bold"> Pamarth <span className="text-green-800">Group</span></h4>
     </div>
-    <div className="w-full mt-6 mr-40 md:mr-24 hidden lg:block lg:mr-12 xl:mr-24">
+    <div className="w-full mt-3 mr-40 md:mr-24 hidden lg:block lg:mr-12 xl:mr-24">
         <ul className="flex justify-end">
             <li>
                 <NavLink
@@ -89,7 +89,7 @@ return (
    
         <div className="z-20 mr-1 w-100% lg:hidden text-end" onClick={toggleClass}>
        
-       <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="42px" fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="#ffffff">
+       <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="30px" fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="#ffffff">
        <path stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M3 5h8M3 12h13M3 19h18">
        </path>
        </svg>

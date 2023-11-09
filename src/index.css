@@ -31,8 +31,7 @@ body{
 }
 
 .name-label{
-    position: absolute;
-    
+    position: absolute; 
     top: 28px;
     left: 36px;
     font-size: 1rem;
@@ -56,6 +55,24 @@ body{
 .email:placeholder-shown ~ .email-label{
     top: 161px;
     cursor: text;
+}
+
+@media (max-width: 320px){
+    .input:placeholder-shown ~ .name-label {
+        top: 56px;
+    }
+    .email:placeholder-shown ~ .email-label{
+        top: 128px;
+        cursor: text;
+    }
+
+    .name-label{
+        left: 30px;
+    }
+
+    .email-label{
+        left: 30px;
+    }
 }
 .menu-container {
    animation: max-height 1s ease;
