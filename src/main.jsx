@@ -12,7 +12,7 @@ import Contact from './Components/ContactUs/ContactUs'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/realState/",
     element: <Layout/>,
     children: [
       {
