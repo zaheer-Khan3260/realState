@@ -25,14 +25,14 @@ export default function Contact() {
                 id="Name"
                  type="text"
                  placeholder="Name"
-                 className="input w-[10rem] mt-10 ml-5 h-10 pt-4 pl-2 border-2 border-black rounded-lg lg:w-5/6"
+                 className="input w-[10rem] mt-10 ml-5 h-10  pl-2 border-2 border-black rounded-lg lg:w-5/6"
                  />
                  <label htmlFor="Name" className="name-label">Name</label>
                 <input
                 id="Email"
                  type="email"
                  placeholder="Email"
-                 className="email w-[10rem] mt-8 ml-5 h-10 pt-4 pl-2 border-2 border-black rounded-lg lg:w-5/6"
+                 className="email w-[10rem] mt-8 ml-5 h-10  pl-2 border-2 border-black rounded-lg lg:w-5/6"
                  />
                  <label htmlFor="Name" className="email-label">Email</label>
                 
