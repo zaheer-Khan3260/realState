@@ -46,7 +46,7 @@ return (
         <ul className="flex justify-end">
             <li>
                 <NavLink
-                to="/"
+                to="/realState/"
                 className={({isActive}) => 
                 `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
@@ -56,7 +56,7 @@ return (
             </li>
             <li>
                 <NavLink
-                to="/services"
+                to="/realState/services"
                 className={({isActive}) => 
                 `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
@@ -66,7 +66,7 @@ return (
             </li>
     <li>
                 <NavLink
-                to="/about"
+                to="/realState/about"
                 className={({isActive}) => 
                     `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
@@ -76,7 +76,7 @@ return (
             </li>
             <li>
                 <NavLink
-                to="/contact"
+                to="/realState/contact"
                 className={({isActive}) => 
                 `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
@@ -99,7 +99,7 @@ return (
 <ul className=" justify-end">
             <li className="pt-4">
                 <NavLink
-                to="/"
+                to="/realState/"
                 className={({isActive}) => 
                 `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600`
                 }
@@ -109,7 +109,7 @@ return (
             </li>
             <li>
                 <NavLink
-                to="/services"
+                to="/realState/services"
                 className={({isActive}) => 
                 `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
@@ -119,7 +119,7 @@ return (
             </li>
     <li>
                 <NavLink
-                to="/about"
+                to="/realState/about"
                 className={({isActive}) => 
                     `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
@@ -129,7 +129,7 @@ return (
             </li>
             <li>
                 <NavLink
-                to="/contact"
+                to="/realState/contact"
                 className={({isActive}) => 
                 `mx-6 text-xl ${isActive ? "text-blue-600" : "text-white"} hover:text-blue-600 `
                 }
